@@ -1461,6 +1461,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -2370,6 +2493,18 @@
 		(uuid "4e6ec233-7420-4a39-bf82-45757d5bcc8e")
 	)
 	(rectangle
+		(start 207.01 112.395)
+		(end 231.775 130.81)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c684d82e-542f-47a2-be41-7e8279838c65")
+	)
+	(rectangle
 		(start 60.96 53.34)
 		(end 92.71 80.01)
 		(stroke
@@ -2404,6 +2539,18 @@
 			)
 		)
 		(uuid "230b74c9-2693-4f82-ba7e-2503c20f1cb4")
+	)
+	(text "Mounting"
+		(exclude_from_sim no)
+		(at 216.154 127.508 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "26a733c3-0263-481b-9cc6-8b775047c9e7")
 	)
 	(text "IOs"
 		(exclude_from_sim no)
@@ -2454,10 +2601,28 @@
 		(uuid "d3542484-607e-4cf6-9622-836078347ae1")
 	)
 	(junction
+		(at 220.98 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eaa08f6-9aaa-41a9-8bc1-df1670e0193c")
+	)
+	(junction
 		(at 110.49 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bade118-d111-4344-8802-0752da7c25bf")
+	)
+	(junction
+		(at 215.9 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41c04c69-7538-4c19-8a93-7efbce60ca39")
+	)
+	(junction
+		(at 226.06 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bbcad68-af48-4a66-8d3a-768037e0b9a6")
 	)
 	(junction
 		(at 186.69 106.68)
@@ -2573,6 +2738,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 123.19) (xy 210.82 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7b9094-2b2c-44b2-9c12-20451cb17939")
+	)
+	(wire
+		(pts
+			(xy 220.98 123.19) (xy 220.98 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0accb241-bf03-428f-a488-af91e5e77319")
+	)
+	(wire
+		(pts
 			(xy 161.29 63.5) (xy 161.29 64.77)
 		)
 		(stroke
@@ -2623,6 +2808,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 123.19) (xy 226.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c038fc-801d-48db-9a14-fe40f3379dbd")
+	)
+	(wire
+		(pts
 			(xy 144.78 116.84) (xy 144.78 118.11)
 		)
 		(stroke
@@ -2650,6 +2845,16 @@
 			(type default)
 		)
 		(uuid "2480c953-1715-4d53-b52c-f0788a5db876")
+	)
+	(wire
+		(pts
+			(xy 228.6 123.19) (xy 228.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250ccc13-a214-4617-8c6f-cf6ed3f5220f")
 	)
 	(wire
 		(pts
@@ -2903,6 +3108,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 123.19) (xy 220.98 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863c0e1e-e5e2-4dbd-b513-7329a2603adb")
+	)
+	(wire
+		(pts
 			(xy 198.12 85.09) (xy 198.12 83.82)
 		)
 		(stroke
@@ -2950,6 +3165,16 @@
 			(type default)
 		)
 		(uuid "8d551a51-1fcb-4bba-bb88-f5169b0c48f1")
+	)
+	(wire
+		(pts
+			(xy 215.9 123.19) (xy 215.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb6d039-6f3f-44a5-a396-1aca3d622662")
 	)
 	(wire
 		(pts
@@ -3183,6 +3408,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 123.19) (xy 226.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd521b53-d946-443e-99b1-d20c20121965")
+	)
+	(wire
+		(pts
 			(xy 110.49 67.31) (xy 110.49 68.58)
 		)
 		(stroke
@@ -3230,6 +3465,16 @@
 			(type default)
 		)
 		(uuid "d76dbb50-7dee-4667-aab5-a51030fee704")
+	)
+	(wire
+		(pts
+			(xy 226.06 123.19) (xy 226.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93f2867-b02f-4770-85d0-eba52575c6ba")
 	)
 	(wire
 		(pts
@@ -3300,6 +3545,16 @@
 			(type default)
 		)
 		(uuid "f5783c4e-0ca0-4083-95b4-65bbb6308b96")
+	)
+	(wire
+		(pts
+			(xy 210.82 123.19) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64fc717-13cc-46aa-93d1-01e50f8f35cf")
 	)
 	(wire
 		(pts
@@ -4256,6 +4511,84 @@
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2514e09f-2459-4823-a58d-7ff9bc16b1fd")
+		(property "Reference" "#PWR0130"
+			(at 228.6 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.346 129.032 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f16943a-8563-4e64-9300-ec7d9b4ca2a7")
+		)
+		(instances
+			(project "valrob-wb-soudure-1"
+				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -5462,6 +5795,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 220.98 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c1d9758-7287-4d07-bd30-0ff6584a975d")
+		(property "Reference" "H2"
+			(at 219.71 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 224.79 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 220.98 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 220.98 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0741b6b-acba-412f-9676-2292a9348cb4")
+		)
+		(instances
+			(project "valrob-wb-soudure-1"
+				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 205.74 85.09 0)
 		(mirror y)
@@ -6523,6 +6934,84 @@
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 226.06 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8fc7502c-d8dc-4fb3-b95c-84984711ffb3")
+		(property "Reference" "H3"
+			(at 224.79 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 229.87 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 226.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 226.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bda9eb74-bbf9-4312-8fce-5a0e27e16a60")
+		)
+		(instances
+			(project "valrob-wb-soudure-1"
+				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -8716,6 +9205,162 @@
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 210.82 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ede0c6c3-383f-4ddd-9866-b9b9dde271d2")
+		(property "Reference" "H4"
+			(at 209.55 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 214.63 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3983bbad-15b6-4ce1-a546-c2b5ca14883b")
+		)
+		(instances
+			(project "valrob-wb-soudure-1"
+				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 215.9 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f099db1f-8929-4cbc-9aee-e8e7f7b9c6a5")
+		(property "Reference" "H1"
+			(at 214.63 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 219.71 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 215.9 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 215.9 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e977b995-b65e-4b70-a031-7dcf79088b9d")
+		)
+		(instances
+			(project "valrob-wb-soudure-1"
+				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
+					(reference "H1")
 					(unit 1)
 				)
 			)
