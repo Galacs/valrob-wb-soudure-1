@@ -4318,15 +4318,15 @@
 			(uuid "c7aebfda-588b-499c-8afc-d0c7bcc82fb6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_SPST_Omron_B3F-40xx.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/B3F-4055.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 6.3 -2.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5820,15 +5820,15 @@
 			(uuid "e5e98851-072d-4e99-a605-4e598b61212c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_SPST_Omron_B3F-40xx.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/B3F-4055.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 6.3 -2.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -6132,15 +6132,15 @@
 			(uuid "b6eacb31-4ce9-418e-b834-b59a33902948")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_SPST_Omron_B3F-40xx.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/B3F-4055.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 6.3 -2.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
