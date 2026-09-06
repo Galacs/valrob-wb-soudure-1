@@ -1,0 +1,20 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+D1,D_DO-41_SOD81_P10.16mm_Horizontal,1,D_TVS,C28485754
+"D2, D5",LED_D3.0mm,2,RED,C2895470
+"D3, D4",LED_D3.0mm,2,BLUE,C2895474
+D6,1206,1,BLUE,C965827
+D7,1206,1,RED,C965822
+D8,0805,1,GREEN,C2297
+D9,0603,1,WHITE,C2290
+J1,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,1,Conn_01x03,
+J2,JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,1,Conn_01x06,
+"J3, J6",JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,2,Conn_01x02,
+"J4, J5","TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",2,Conn_01x02,
+Q1,TO-92_Inline,1,2N7000,C2910414
+"R1, R4",R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,200,C138210
+"R2, R3",R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,150,C172973
+"R5, R6, R7, R8",1206,4,4k7,C26043
+RV1,Potentiometer_Alps_RK09Y11_Single_Horizontal,1,10k,C470717
+"SW1, SW2, SW3",SW_SPST_Omron_B3F-40xx,3,SW_Push,C84931
+SW4,SW_SPST_TS-1088-xR020,1,SW_Push,C720477
+"TP1, TP2",TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded,2,TestPoint,C5199814
