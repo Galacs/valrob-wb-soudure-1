@@ -128,6 +128,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -2182,6 +2340,18 @@
 		(uuid "3a95eca9-ba04-4448-b204-1c52f8d8fbcf")
 	)
 	(rectangle
+		(start 146.05 110.49)
+		(end 170.18 134.62)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3d7214f2-8132-4125-8d46-16fde8bb5c08")
+	)
+	(rectangle
 		(start 101.6 45.72)
 		(end 137.16 90.17)
 		(stroke
@@ -2265,6 +2435,18 @@
 		)
 		(uuid "d2a3d7a9-eafb-463a-a541-abd4a530be09")
 	)
+	(text "TEST"
+		(exclude_from_sim no)
+		(at 156.972 129.286 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d3542484-607e-4cf6-9622-836078347ae1")
+	)
 	(junction
 		(at 110.49 67.31)
 		(diameter 0)
@@ -2282,6 +2464,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "811155c6-b0d6-469d-997c-e14d898c80ad")
+	)
+	(junction
+		(at 156.21 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "988a560e-2268-4564-97ee-b191926cfadb")
 	)
 	(junction
 		(at 161.29 64.77)
@@ -2306,6 +2494,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b344a3b3-f04a-4921-9e9f-7577c5623f77")
+	)
+	(junction
+		(at 156.21 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef82252-1f79-4aac-a149-a6de6641ade0")
 	)
 	(junction
 		(at 78.74 63.5)
@@ -2469,6 +2663,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 115.57) (xy 156.21 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417b236e-0989-4d9f-b662-1e8ceed90e3e")
+	)
+	(wire
+		(pts
 			(xy 165.1 66.04) (xy 165.1 64.77)
 		)
 		(stroke
@@ -2499,6 +2703,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 123.19) (xy 156.21 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8971ec-bd9e-4909-b6bb-9d5ece03fd7f")
+	)
+	(wire
+		(pts
 			(xy 132.08 62.23) (xy 132.08 60.96)
 		)
 		(stroke
@@ -2506,6 +2720,16 @@
 			(type default)
 		)
 		(uuid "5382a400-c64e-4215-b7f6-662fd7ea377a")
+	)
+	(wire
+		(pts
+			(xy 156.21 118.11) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551511b2-2b4d-45e9-a7d3-f8888ef96271")
 	)
 	(wire
 		(pts
@@ -2526,6 +2750,16 @@
 			(type default)
 		)
 		(uuid "5df86915-da39-42b9-9281-1ddd11e7ec45")
+	)
+	(wire
+		(pts
+			(xy 156.21 125.73) (xy 157.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3bb092-cc7e-4364-80d0-4540d66a184d")
 	)
 	(wire
 		(pts
@@ -2636,6 +2870,26 @@
 			(type default)
 		)
 		(uuid "8a3c8a90-ad5a-402a-959c-71f64b7eea58")
+	)
+	(wire
+		(pts
+			(xy 156.21 123.19) (xy 157.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb72a5d-1c72-4801-bba2-93a6bc59e09b")
+	)
+	(wire
+		(pts
+			(xy 154.94 118.11) (xy 156.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90961084-dcbb-4dd1-840c-14ac711a6250")
 	)
 	(wire
 		(pts
@@ -2839,6 +3093,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 123.19) (xy 156.21 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd2fb3b-00ff-44e8-8be1-d76917038a7d")
+	)
+	(wire
+		(pts
 			(xy 110.49 67.31) (xy 110.49 68.58)
 		)
 		(stroke
@@ -2936,6 +3200,16 @@
 			(type default)
 		)
 		(uuid "ee17f77c-f807-4ff5-bebd-ee8e4aa6b60b")
+	)
+	(wire
+		(pts
+			(xy 156.21 115.57) (xy 156.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5783c4e-0ca0-4083-95b4-65bbb6308b96")
 	)
 	(wire
 		(pts
@@ -5748,7 +6022,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 121.92 0)
+		(at 154.94 118.11 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5756,10 +6031,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d6b8cf5-4831-4ee4-a2d3-d9c28dded509")
 		(property "Reference" "TP1"
-			(at 149.86 118.6179 0)
+			(at 153.162 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5770,7 +6044,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 149.86 119.8879 0)
+			(at 152.9079 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5781,8 +6055,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 152.4 121.92 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
+			(at 154.94 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,7 +6067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 121.92 0)
+			(at 154.94 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5804,7 +6078,51 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 121.92 0)
+			(at 154.94 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Z"
+			(at 154.94 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C5199814"
+			(at 154.94 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 154.94 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RH-5011"
+			(at 154.94 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5979,6 +6297,130 @@
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 123.19 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "913c2cde-ce2c-4566-a401-4be06ad4d90b")
+		(property "Reference" "TP2"
+			(at 153.162 125.222 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 152.9079 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
+			(at 154.94 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Z"
+			(at 154.94 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C5199814"
+			(at 154.94 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ronghe"
+			(at 154.94 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RH-5011"
+			(at 154.94 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74832185-f977-4ec6-b451-b31e7f5cf63e")
+		)
+		(instances
+			(project "valrob-wb-soudure-1"
+				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6967,6 +7409,168 @@
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 162.56 125.73 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4a1b53a-6074-4dbb-89d1-0fdd8666ffd1")
+		(property "Reference" "J7"
+			(at 166.37 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 162.56 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 162.56 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "db6dd90c-4c38-45c4-a659-520de515331e")
+		)
+		(pin "1"
+			(uuid "cea47c62-ed6b-45d0-bffa-f1d6961435f9")
+		)
+		(instances
+			(project "valrob-wb-soudure-1"
+				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 162.56 118.11 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c96ef6eb-81e5-4af2-8a2c-7c0c0d1b80e6")
+		(property "Reference" "J6"
+			(at 166.37 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 162.56 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 162.56 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "72846efb-32b0-45be-a230-6169b93ac02c")
+		)
+		(pin "1"
+			(uuid "f86d66d1-8314-48d6-969b-3daba617e564")
+		)
+		(instances
+			(project "valrob-wb-soudure-1"
+				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
+					(reference "J6")
 					(unit 1)
 				)
 			)
