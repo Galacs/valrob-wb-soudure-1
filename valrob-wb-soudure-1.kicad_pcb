@@ -712,7 +712,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
-			(at 0 -1.83 90)
+			(at -1 2.5 180)
 			(layer "F.SilkS")
 			(uuid "bcb080e7-6335-4c58-ab0a-e0cc14033447")
 			(effects
@@ -723,8 +723,8 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 1.83 90)
-			(layer "F.Fab")
+			(at 0.5 2.5 180)
+			(layer "F.SilkS")
 			(uuid "9298aedb-012f-49e1-adc8-aa895997a075")
 			(effects
 				(font
@@ -1272,7 +1272,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at 0 -1.83 90)
+			(at -1 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "68c52251-a80f-4b26-a532-1dff26c51d03")
 			(effects
@@ -1283,8 +1283,8 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 1.83 90)
-			(layer "F.Fab")
+			(at 0.5 -2.5 0)
+			(layer "F.SilkS")
 			(uuid "554b2e4e-80d7-4b31-9e80-d486acc8d8e7")
 			(effects
 				(font
@@ -2135,9 +2135,9 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED")
 		(property "Reference" "D8"
-			(at 0 -1.65 90)
+			(at 2.5 0 180)
 			(layer "F.SilkS")
-			(uuid "68cb658a-21ad-43b0-93a7-dbabcc14c0ad")
+			(uuid "bbcf6d58-5c0e-4b71-bdbd-d49fe165ee4b")
 			(effects
 				(font
 					(size 1 1)
@@ -2148,7 +2148,7 @@
 		(property "Value" "GREEN"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "74d1a59a-2c32-4a4c-a3c3-c2d774de3df2")
+			(uuid "f6c55355-2708-4494-a891-dd8e9bf062e4")
 			(effects
 				(font
 					(size 1 1)
@@ -2160,7 +2160,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc7e6aab-84af-45df-9bf7-35201796cae8")
+			(uuid "f0658b8c-8bc3-448d-a0c6-a96a833f111a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2171,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "755b6e91-8d09-43de-9df8-0fb0beba02a3")
+			(uuid "a7ae9a98-949a-455f-a56f-6f3f2feafcbe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,8 +2420,8 @@
 			)
 		)
 		(property "Value" "200"
-			(at 5.08 2.37 0)
-			(layer "F.Fab")
+			(at 5.08 0 0)
+			(layer "F.SilkS")
 			(uuid "283b2cd5-2aac-46cc-a78f-d3d20d4ffecf")
 			(effects
 				(font
@@ -2652,7 +2652,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D9"
-			(at 0 -1.43 90)
+			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "46127c7f-8206-4ea1-93bb-21dcbc9eec0a")
 			(effects
@@ -3224,7 +3224,7 @@
 		(descr "wire loop with bead as test point, loop diameter 3.5mm, hole diameter 1.4mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP2"
-			(at 0.7 2.5 0)
+			(at 0 3 0)
 			(layer "F.SilkS")
 			(uuid "43238dc8-961b-46fe-a440-f6384be1780d")
 			(effects
@@ -3450,7 +3450,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 5.08 -2.37 0)
+			(at 5.5 2.5 0)
 			(layer "F.SilkS")
 			(uuid "d5af709d-4d7f-4a79-aa10-97a80609b18c")
 			(effects
@@ -3461,8 +3461,8 @@
 			)
 		)
 		(property "Value" "200"
-			(at 5.08 2.37 0)
-			(layer "F.Fab")
+			(at 5.08 0 0)
+			(layer "F.SilkS")
 			(uuid "bd9b7f60-1258-4430-8919-27b712154315")
 			(effects
 				(font
@@ -3693,7 +3693,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 -3.56 0)
+			(at -2.23 0 0)
 			(layer "F.SilkS")
 			(uuid "070250c4-6e8b-4ce5-b853-d46fe65ec9ed")
 			(effects
@@ -7139,7 +7139,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
-			(at 0 -1.83 90)
+			(at -0.5 -3 180)
 			(layer "F.SilkS")
 			(uuid "dc7d8dd9-b645-4488-ad6d-8311a84dae39")
 			(effects
@@ -7150,8 +7150,8 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 1.83 90)
-			(layer "F.Fab")
+			(at 1 -3 180)
+			(layer "F.SilkS")
 			(uuid "649f1a85-0f23-4850-975c-87990d45f61b")
 			(effects
 				(font
@@ -7934,9 +7934,9 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at 0 -1.83 90)
+			(at -0.5 2.5 180)
 			(layer "F.SilkS")
-			(uuid "191247b7-72c3-45ee-9df1-c56df17e2b3d")
+			(uuid "cea99862-dd95-4ff7-8ee4-b1cb22445660")
 			(effects
 				(font
 					(size 1 1)
@@ -7945,9 +7945,9 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 1.83 90)
-			(layer "F.Fab")
-			(uuid "c71efc2e-94d7-4d05-be1f-9aa0722362db")
+			(at 1 2.5 180)
+			(layer "F.SilkS")
+			(uuid "7cc8f991-01c7-45b9-9441-79f030be98d0")
 			(effects
 				(font
 					(size 1 1)
@@ -7959,7 +7959,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "82846f73-4660-432e-9caa-5a77821f8a3e")
+			(uuid "e0b924c9-f9af-412d-86d5-14c9e2d234ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +7970,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "084f5463-b2d0-4e34-8920-67b44fc9195f")
+			(uuid "ba176e0f-1505-4a74-8644-68cb48ce6e20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9114,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 5.08 -2.37 90)
+			(at 5.08 -3 180)
 			(layer "F.SilkS")
 			(uuid "81509b5d-075f-447f-963f-04ffe5c5d06b")
 			(effects
@@ -9125,8 +9125,8 @@
 			)
 		)
 		(property "Value" "150"
-			(at 5.08 2.37 90)
-			(layer "F.Fab")
+			(at 5.58 0 90)
+			(layer "F.SilkS")
 			(uuid "f055d3b9-7daa-4e30-b4d1-020abebf7db7")
 			(effects
 				(font
@@ -9642,8 +9642,8 @@
 			)
 		)
 		(property "Value" "150"
-			(at 5.08 2.37 0)
-			(layer "F.Fab")
+			(at 5.08 0 0)
+			(layer "F.SilkS")
 			(uuid "99d8e347-fd83-4c4e-8b05-ae21fb9418a7")
 			(effects
 				(font
@@ -10034,6 +10034,162 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "2623fa96-ba5a-4900-8903-489b26264fc4")
+	)
+	(gr_text "R"
+		(at 75 119 0)
+		(layer "F.SilkS")
+		(uuid "36b4922d-aa35-49b2-a0cc-bf115ccd16af")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B"
+		(at 75.5 133 0)
+		(layer "F.SilkS")
+		(uuid "83c402eb-8b9f-4a02-b762-24d95ba7c227")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "R"
+		(at 75.5 138.5 0)
+		(layer "F.SilkS")
+		(uuid "f901513a-4f72-4b23-a871-d78bec0f8a6e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B"
+		(at 89.5 118.5 0)
+		(layer "F.SilkS")
+		(uuid "7a7f63ab-ad4c-47dc-aa74-6359f4027899")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B"
+		(at 100 115.5 0)
+		(layer "F.SilkS")
+		(uuid "5d62bb22-5ab0-494c-8d78-a49eb56fd8c3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "R"
+		(at 106.5 115.5 0)
+		(layer "F.SilkS")
+		(uuid "ec4becde-c390-4fbb-8b6b-946b1eb422b5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "G"
+		(at 116.5 117 0)
+		(layer "F.SilkS")
+		(uuid "50a389cf-c1fe-49b9-a696-948f96b71713")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "W"
+		(at 121.5 117 0)
+		(layer "F.SilkS")
+		(uuid "deb0e707-f792-4808-a646-1b568b2e50a5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "C"
+		(at 56 117 0)
+		(layer "F.SilkS" knockout)
+		(uuid "cb502741-3621-45ef-b11a-2a6eed915881")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "A"
+		(at 64 102 0)
+		(layer "F.SilkS" knockout)
+		(uuid "92d22bdd-8d77-4c33-85ae-93305835305a")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D"
+		(at 103.5 112 0)
+		(layer "F.SilkS" knockout)
+		(uuid "9bc9eca0-34ec-41f9-b781-2d76b7f895ce")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B"
+		(at 108 138.5 0)
+		(layer "F.SilkS" knockout)
+		(uuid "020f1ce9-4252-4aeb-a6c6-2adf87ba78e7")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "E"
+		(at 126.5 113 0)
+		(layer "F.SilkS" knockout)
+		(uuid "a4c7a3d7-c5ae-4b35-ac3f-4d1d314d5b90")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(via
 		(at 108 121)
