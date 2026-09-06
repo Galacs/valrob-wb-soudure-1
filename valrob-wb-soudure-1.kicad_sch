@@ -3383,7 +3383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01d6b3f9-33b0-433a-bc00-80a07840ff7e")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 194.31 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3447,7 +3447,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3464,7 +3464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a7d5db4-38ad-4227-8f35-7de1e0cc70c4")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 167.64 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3572,7 +3572,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3590,7 +3590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dbb6d50-836b-46ad-acde-871e66f73251")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 147.32 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +3698,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3716,7 +3716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13d3ff61-1c88-40fe-980c-242b844d8ce7")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 195.58 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3824,7 +3824,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3842,7 +3842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15c3945e-0301-45f1-b781-39d9608fdd71")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 114.3 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3903,7 +3903,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR02")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3921,7 +3921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "190fe635-1461-43c7-b944-df88289a3327")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR013"
 			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3982,7 +3982,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR018")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4000,7 +4000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1929b7f2-088d-494c-a7fe-7ed0821c0db7")
-		(property "Reference" "D8"
+		(property "Reference" "D4"
 			(at 135.89 122.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,7 +4119,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "D8")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4136,7 +4136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c22a0ce-3932-4c55-993f-3ba94995cefd")
-		(property "Reference" "D7"
+		(property "Reference" "D9"
 			(at 209.042 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4255,7 +4255,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "D7")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4352,7 +4352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c6ccfe8-806e-4a3d-a4f7-95c691697cc4")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 107.442 58.674 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4460,7 +4460,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -4477,7 +4477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f37d7b1-e24c-400a-9467-918f78a137f4")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR09"
 			(at 118.11 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4537,7 +4537,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR017")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4555,7 +4555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f8a4483-e301-40be-b1c0-719b0f351bde")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR018"
 			(at 198.12 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4616,7 +4616,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR037")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4634,7 +4634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38dd04b3-5d97-4952-8873-baee4458dfb2")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 118.11 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4695,7 +4695,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4713,7 +4713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a0b05cd-b348-47a4-94c7-02716b809fc8")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 102.87 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4774,7 +4774,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4923,7 +4923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ccc6022-0225-4bf0-b77f-8d5cf493acbc")
-		(property "Reference" "D9"
+		(property "Reference" "D5"
 			(at 148.59 122.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5042,7 +5042,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "D9")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5189,7 +5189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4893871a-0793-40bf-8599-4693e2a727cf")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 193.294 55.626 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5319,7 +5319,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -5336,7 +5336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a29d829-ec69-4a66-9472-f6b0012c6e26")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 168.91 79.0574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5455,7 +5455,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5474,7 +5474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c5296dc-8cec-4d90-8e36-1f42d5cd4881")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR020"
 			(at 205.74 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5535,7 +5535,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR040")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e4499f6-cabc-49b2-91a4-89e6c0e858d8")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 201.93 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5612,7 +5612,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5748,7 +5748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61f39899-3cf7-4bf5-8f15-0a0fd7b60696")
-		(property "Reference" "SW4"
+		(property "Reference" "SW3"
 			(at 158.242 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5856,7 +5856,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "SW4")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -6010,7 +6010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bae3fcd-1f02-4fb4-be22-8f3d8d6deb59")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6071,7 +6071,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6088,7 +6088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7605347c-e670-4ed4-b3a6-cb91b20d2f6e")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 208.28 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6196,7 +6196,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6338,7 +6338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80766b8c-d400-4093-9313-f5de660e4bff")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 132.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6399,7 +6399,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6620,7 +6620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "915c9bbf-cf8a-4802-9330-c25640b98517")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 154.94 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6728,7 +6728,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6746,7 +6746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91b8f441-825b-4cca-a53e-c596c4e1611e")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 194.31 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6810,7 +6810,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6827,7 +6827,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "946c896a-af47-4a55-b549-d280300dbe0d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR016"
 			(at 161.29 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6887,7 +6887,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR08")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7031,7 +7031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aff4ed6-7cf2-4851-93a3-583c3ac898b7")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 165.1 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7092,7 +7092,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7236,7 +7236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f73711a-c6bb-453b-8e1d-15c7d5aaaf17")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR03"
 			(at 83.82 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7297,7 +7297,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR09")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7315,7 +7315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0dbda91-3e30-497d-815b-c934a9a077df")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 110.49 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7376,7 +7376,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7393,7 +7393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a94cbeeb-ba40-47a6-beed-1544ba4e0e9b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 115.57 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7453,7 +7453,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7564,7 +7564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9191380-12b3-4f3b-94dd-8471df82cb22")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 134.62 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7672,7 +7672,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7685,12 +7685,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4a1b53a-6074-4dbb-89d1-0fdd8666ffd1")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 195.58 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7753,7 +7753,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7766,12 +7766,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c96ef6eb-81e5-4af2-8a2c-7c0c0d1b80e6")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 195.58 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7834,7 +7834,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7851,7 +7851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d820382f-a522-4a69-920d-1986bf73e8fc")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 83.82 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7911,7 +7911,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7929,7 +7929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9dcb900-35d9-4884-bc46-f2c2df991ded")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 78.74 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7990,7 +7990,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8007,7 +8007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1847362-8c3f-4ada-a24f-6badc5cc0db7")
-		(property "Reference" "SW5"
+		(property "Reference" "SW1"
 			(at 106.68 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8114,7 +8114,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "SW5")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -8268,7 +8268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5fc174a-b820-438c-a945-2bfe557a9ee0")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR04"
 			(at 102.87 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8328,7 +8328,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR015")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8346,7 +8346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f32ad6-1abe-4214-9e42-1bbef1962ea2")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR014"
 			(at 144.78 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8407,7 +8407,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR019")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8425,7 +8425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e79f8bf8-17a2-4b49-86c4-d8e1b7a1c33e")
-		(property "Reference" "D6"
+		(property "Reference" "D8"
 			(at 188.722 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8544,7 +8544,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "D6")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8689,7 +8689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f16db4c3-751f-4808-a3c2-54013efd3515")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 153.67 79.0574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8808,7 +8808,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8826,7 +8826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffe6559d-519b-4b66-b2d1-95a09deb09f9")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 120.65 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8887,7 +8887,7 @@
 		(instances
 			(project "valrob-wb-soudure-1"
 				(path "/381386cb-d1fa-4f5b-8f4f-ee6f5b0963e7"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
