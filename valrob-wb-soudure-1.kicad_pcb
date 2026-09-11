@@ -11931,6 +11931,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(barcode
+		(at 96.25 110.5 0)
+		(layer "B.Mask")
+		(size 10 10)
+		(text "https://github.com/Galacs/valrob-wb-soudure-1")
+		(text_height 1)
+		(type qr)
+		(ecc_level L)
+		(hide yes)
+		(knockout no)
+		(uuid "03318c5f-4bdf-46c8-9438-21f40e9fea9d")
+	)
 	(via
 		(at 108 121)
 		(size 0.9)
