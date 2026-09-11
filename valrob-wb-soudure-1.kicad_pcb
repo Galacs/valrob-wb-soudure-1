@@ -87,7 +87,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(aux_axis_origin 48 143)
 		(grid_origin 48 143)
 		(pcbplotparams
@@ -983,7 +982,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Z"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -996,7 +995,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C144394"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1009,7 +1008,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JST"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1022,7 +1021,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "B3B-XH-A(LF)(SN)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1902,6 +1901,58 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9e9a8f07-6a12-41e9-abfa-ad141b188702")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Basic" "Z"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04df38ee-4e57-47e2-b970-060ff0d8b3e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C495685"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cffd2149-fe2d-476f-8322-923397a61623")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aec22d1b-bc4b-4c4f-8155-3e932adfef33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B2B-XH-A-R(LF)(SN)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a160d805-ba6a-410f-822d-b71287f2e94c")
 			(effects
 				(font
 					(size 1 1)
@@ -6869,6 +6920,58 @@
 				)
 			)
 		)
+		(property "Basic" "Z"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99ad4657-7808-4edf-a478-1f7de1272ea4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C144397"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32ef2b1d-78ec-45a9-a745-f077d1ce5c48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae60b276-3a6d-4aea-8f3a-2beac3167377")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-XH-A(LF)(SN)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "305abb1d-bed3-4c84-a28c-af02d0657a81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b7ec370b-a4c5-4302-880c-34f2a3b35e5d")
 		(sheetname "/")
@@ -7403,6 +7506,58 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "31f417c6-7192-48c6-b41c-983584bc8a39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Basic" "Z"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a51a2b8-de1a-47f7-82b6-d407ceca9d4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C495685"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67505853-63da-46bc-a12a-153e104cd493")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee077eff-f6de-4164-9303-adf069833be5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B2B-XH-A-R(LF)(SN)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16aaf388-40f9-4d62-8129-4f6204a999a2")
 			(effects
 				(font
 					(size 1 1)
