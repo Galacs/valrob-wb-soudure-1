@@ -4739,7 +4739,7 @@
 		(descr "SW_THT_Tactile_Omron_B3F-40xx, 12x12 mm, Through hole switch from the B3F Family manufactured by Omron,  https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(tags "tactile switch THT button push B3F-4000 B3F-4050 B3F-4005 B3F-4055  ")
 		(property "Reference" "SW2"
-			(at 6.25 -5.8 0)
+			(at 1.5 9.5 0)
 			(layer "F.SilkS")
 			(uuid "ba3fb979-c6c9-4476-9909-cc59dd7cc79f")
 			(effects
@@ -6553,7 +6553,7 @@
 		(descr "SW_THT_Tactile_Omron_B3F-40xx, 12x12 mm, Through hole switch from the B3F Family manufactured by Omron,  https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(tags "tactile switch THT button push B3F-4000 B3F-4050 B3F-4005 B3F-4055  ")
 		(property "Reference" "SW3"
-			(at 6.25 -5.8 0)
+			(at 1.25 9.5 0)
 			(layer "F.SilkS")
 			(uuid "b50ebaf6-e8e6-42aa-b5e4-e3c8c033812d")
 			(effects
